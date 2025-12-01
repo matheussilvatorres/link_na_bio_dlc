@@ -12,7 +12,7 @@
 		display: flex;
 		justify-content: center;
 		padding: 20px;
-		background-color: config.$secondary-color;
+		background-color: config.$custom_2-color;
 		min-height: 100vh;
 	}
 
@@ -35,13 +35,13 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		color: config.$neutral-color-lightest;
+		color: #333;
 
 		&--image {
 			width: 150px;
 			height: 150px;
 			border-radius: 50%;
-			object-fit: cover;
+			object-fit: contain;
 			border: 4px solid config.$neutral-color-light;
 			box-shadow: config.$default-shadow;
 		}
@@ -77,7 +77,7 @@
 		}
 
 		&--icon {
-			color: config.$neutral-color-lightest;
+			color: #333;
 			font-size: 24px;
 			opacity: 0.8;
 			transition: 0.3s;

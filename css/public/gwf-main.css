@@ -429,6 +429,7 @@
 .gwf-bio__profile--description {
   font-size: 16px;
   padding-bottom: 5px;
+  text-align: center;
 }
 .gwf-bio__profile--description-destaque {
   font-weight: bold;

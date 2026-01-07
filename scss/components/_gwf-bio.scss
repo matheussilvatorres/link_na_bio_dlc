@@ -20,7 +20,7 @@
 		min-height: 100vh;
 
 		@include config.breakpoint('medium-down') {
-			padding: 0px;
+			padding: 10px;
 		}
 	}
 
@@ -173,14 +173,14 @@
 	}
 
 	&__gallery-image--destaque {
-		height: 220px;
+		height: 420px;
 	}
 
 	&__gallery-grade {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		gap: 10px;
-		max-width: 320px;
+		max-width: 600px;
 		margin: 0 auto;
 	}
 
@@ -188,7 +188,7 @@
 
 	&__gallery-image {
 		width: 100%;
-		height: 140px;
+		height: 300px;
 		object-fit: cover;
 		border-radius: 12px;
 		border: 2px solid rgba(255, 255, 255, 0.2);
@@ -197,6 +197,10 @@
 
 		&:hover {
 			transform: scale(1.02);
+		}
+
+		@include config.breakpoint('medium-down') {
+			height: 250px;
 		}
 	}
 
@@ -493,9 +497,9 @@
 		align-items: center;
 		justify-content: space-between;
 		background-color: #f8f9fa;
-		padding: 20px 30px;
+		padding: 20px 15px;
 		border-radius: 12px;
-		max-width: 600px;
+		max-width: 450px;
 		margin: 0 auto;
 		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 		color: #3c4043;

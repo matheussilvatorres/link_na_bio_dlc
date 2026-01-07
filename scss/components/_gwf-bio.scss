@@ -35,7 +35,7 @@
 	&__grid {
 		display: flex;
 		flex-direction: column;
-		gap: 24px;
+		gap: 60px;
 		padding: 25px 20px;
 
 		@include config.breakpoint('medium-down') {
@@ -415,7 +415,7 @@
 
 	&__store-address,
 	&__store-phone,
-	&__store-hours, 
+	&__store-hours,
 	&__store-truck {
 		font-size: 14px;
 		margin-bottom: 8px;

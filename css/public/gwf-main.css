@@ -760,7 +760,7 @@
   font-weight: 700;
   margin-bottom: 12px;
 }
-.gwf-bio__store-address, .gwf-bio__store-phone, .gwf-bio__store-hours {
+.gwf-bio__store-address, .gwf-bio__store-phone, .gwf-bio__store-hours, .gwf-bio__store-truck {
   font-size: 14px;
   margin-bottom: 8px;
   text-align: left;

@@ -504,6 +504,7 @@
 		margin: 0 auto;
 		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 		color: #3c4043;
+		background-color: rgba(255, 255, 255, 0.8);
 
 		@include config.breakpoint('medium-down') {
 			flex-direction: column;
